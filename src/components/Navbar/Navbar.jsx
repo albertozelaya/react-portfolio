@@ -1,15 +1,15 @@
-import { getImageUrl } from "../../utils";
+import getImageUrl from "../../utils";
 import styles from "./Navbar.module.css";
 
 export const NavBar = () => {
-  console.log(getImageUrl("nav/menuIcon.png"));
+  //
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img src="../../assets/nav/menuIcon.png" alt="menu-icon" />
+        <img className={styles.menuBtn} src={getImageUrl("nav/menuIcon.png")} alt="" />
         <ul className={styles.menuItems}>
           <li>
             <a href="#about">About</a>
