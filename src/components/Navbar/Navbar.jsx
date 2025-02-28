@@ -1,7 +1,9 @@
+import { useState } from "react";
 import getImageUrl from "../../utils";
 import styles from "./Navbar.module.css";
 
 export const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   //
   return (
     <nav className={styles.navbar}>
@@ -9,8 +11,18 @@ export const NavBar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img className={styles.menuBtn} src={getImageUrl("nav/menuIcon.png")} alt="menu-button" />
-        <ul className={styles.menuItems}>
+        <img
+          //
+          className={styles.menuBtn}
+          src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")}
+          alt="menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
+        />
+        <ul
+          //
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
