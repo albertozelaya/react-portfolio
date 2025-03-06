@@ -1,9 +1,20 @@
+import getImageUrl from "../../utils";
+import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
-    <section>
-      <div>
-        <h1>Hi, Im Albert</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quisquam quasi fuga.</p>
+    <section className={styles.container}>
+      <div className={styles.content}>
+        <h1 className={styles.title}>Hi, Im Albert</h1>
+        <p className={styles.description}>
+          Im a Front-end Developer with strong skills in Javascript, React and. Reach out if you would like to learn
+          more! 
+        </p>
+        <a href="mailto:albertolaniman@gmail.com" className={styles.contactBtn}>
+          Contact Me
+        </a>
+        <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg} />
+        <div className={styles.topBlur} />
+        <div className={styles.bottomBlur} />
       </div>
     </section>
   );
