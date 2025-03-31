@@ -2,7 +2,7 @@ import { useState } from "react";
 import getImageUrl from "../../utils";
 import styles from "./Navbar.module.css";
 
-export const NavBar = () => {
+export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   //
   return (
@@ -27,7 +27,7 @@ export const NavBar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Exaperience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
