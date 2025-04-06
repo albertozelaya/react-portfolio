@@ -1,25 +1,33 @@
 [
   {
     "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "imageSrc": "projects/developerSite.png",
+    "description": "This project was made to explore different APIs and learn how to handle JSON data.",
+    "skills": ["React", "Shadcn/Ui", "Tailwind", "Strapi"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "imageSrc": "projects/mapty.png",
+    "description": "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
+    "skills": ["Javascript", "Leaflet", "LocalStorage"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "imageSrc": "projects/bankist.png",
+    "description": "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
+    "skills": ["Javascript", "DOM", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project D",
+    "imageSrc": "projects/bankistApp.png",
+    "description": "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and check account status.",
+    "skills": ["Javascript", "Intl API", "CSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

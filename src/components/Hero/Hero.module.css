@@ -46,8 +46,10 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
+
+  border-radius: 20%;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -100,7 +102,11 @@
     flex-direction: column-reverse;
   }
 
-  .content{
+  .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 40%;
   }
 }

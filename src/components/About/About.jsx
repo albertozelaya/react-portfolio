@@ -12,14 +12,17 @@ export const About = () => {
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
-              <p>Im a Frontend developer with experience in building responsive and optimized sites</p>
+              <p>
+                I&apos;m a Frontend Developer passionate about building responsive and user-friendly web applications. I
+                stay up to date with modern frontend trends and best practices.
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="ui icon" />
             <div className={styles.aboutItemText}>
               <h3>UX Designer</h3>
-              <p>I have experience developing UX Designs on Figma</p>
+              <p>Experienced in working with UX designs in Figma to build intuitive and responsive user interfaces</p>
             </div>
           </li>
         </ul>
