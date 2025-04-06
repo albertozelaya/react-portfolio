@@ -30,5 +30,21 @@
     "skills": ["Javascript", "Intl API", "CSS"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
+  },
+  {
+    "title": "Project E",
+    "imageSrc": "projects/pigGame.png",
+    "description": "This is a two-player dice game where the player with the highest score wins.",
+    "skills": ["Javascript", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project F",
+    "imageSrc": "projects/guessNumber.png",
+    "description": "This is a number guessing game based on scoring.",
+    "skills": ["Javascript", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
   }
 ]
