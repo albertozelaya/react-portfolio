@@ -13,7 +13,7 @@
     "description": "This project was built to learn how to use the Leaflet library, logging workouts anywhere in the world.",
     "skills": ["Javascript", "Leaflet", "LocalStorage"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/albertozelaya5/maptyApp"
   },
   {
     "title": "Project C",
@@ -21,15 +21,15 @@
     "description": "This project was created as a main page concept for a bank, exploring the benefits of a modern interface.",
     "skills": ["Javascript", "DOM", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/albertozelaya5/bakistApp"
   },
   {
     "title": "Project D",
     "imageSrc": "projects/bankistApp.png",
-    "description": "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and check account status.",
+    "description": "This project simulates a banking platform with login protection, allowing users to send and receive transfers, request loans, and with a logout timer.",
     "skills": ["Javascript", "Intl API", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/albertozelaya5/timerBankistApp"
   },
   {
     "title": "Project E",
@@ -37,7 +37,7 @@
     "description": "This is a two-player dice game where the player with the highest score wins.",
     "skills": ["Javascript", "HTML", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/albertozelaya5/pigGame"
   },
   {
     "title": "Project F",
@@ -45,6 +45,6 @@
     "description": "This is a number guessing game based on scoring.",
     "skills": ["Javascript", "HTML", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/albertozelaya5/guessMyNumberApp"
   }
 ]
