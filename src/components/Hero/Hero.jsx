@@ -1,4 +1,4 @@
-import heroImg from "../../assets/hero/heroImage.png";
+import { heroImage } from "../../assets/index";
 import styles from "./Hero.module.css";
 export const Hero = () => {
   return (
@@ -12,7 +12,7 @@ export const Hero = () => {
         <a href="mailto:albertolaniman@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
-        <img src={heroImg} alt="Hero image of me" className={styles.heroImg} />
+        <img src={heroImage} alt="Hero image of me" className={styles.heroImg} />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
       </div>
