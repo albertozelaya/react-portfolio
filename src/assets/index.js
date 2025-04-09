@@ -7,6 +7,8 @@ import linkedinIcon from "./contact/linkedinIcon.png";
 import heroImage from "./hero/heroImage.png";
 import banhcafe from "./history/banhcafe.png";
 import earthlink from "./history/earthlink.png";
+import closeIcon from "./nav/closeIcon.png";
+import menuIcon from "./nav/menuIcon.png";
 import bankist from "./projects/bankist.png";
 import bankistApp from "./projects/bankistApp.png";
 import developerSite from "./projects/developerSite.png";
@@ -26,6 +28,7 @@ export {
   banhcafe,
   bankist,
   bankistApp,
+  closeIcon,
   css,
   cursorIcon,
   developerSite,
@@ -39,8 +42,10 @@ export {
   javascript,
   linkedinIcon,
   mapty,
+  menuIcon,
   pigGame,
   react,
   typescript,
-  uiIcon,
+  uiIcon
 };
+
